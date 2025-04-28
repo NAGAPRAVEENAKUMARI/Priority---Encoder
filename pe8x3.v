@@ -1,26 +1,26 @@
-// // DATA FLOW MODELING
+// DATA FLOW MODELING:
 
-// module pe8x3(input [7:0]a, output [2:0]y);
-// assign y[2]=a[7] | a[6] | a[5] |a[4];
-// assign y[1]= ~a[5]& ~a[4] & (a[2] | a[3]) | a[6] | a[7];
-// assign y[0]= ~a[6] & ((~a[4] & ~a[2]& a[1] | ~a[4] & a[3]) |a[5]) | a[7];
-// endmodule
+module pe8x3(input [7:0]a, output [2:0]y);
+assign y[2]=a[7] | a[6] | a[5] |a[4];
+assign y[1]= ~a[5]& ~a[4] & (a[2] | a[3]) | a[6] | a[7];
+assign y[0]= ~a[6] & ((~a[4] & ~a[2]& a[1] | ~a[4] & a[3]) |a[5]) | a[7];
+endmodule
 
-// // BEHAVIOURAL MODELING
-// module pe8x3(input [7:0] a, output reg [2:0] y);
-//   always @(a) begin
-//     case (1'b1)  // Use '1' as the condition to always evaluate the cases
-//       a[7]: y = 3'b111;
-//       a[6]: y = 3'b110;
-//       a[5]: y = 3'b101;
-//       a[4]: y = 3'b100;
-//       a[3]: y = 3'b011;
-//       a[2]: y = 3'b010;
-//       a[1]: y = 3'b001;
-//       default: y = 3'b000; //Handles the case where no input is high
-//     endcase
-//   end
-// endmodule
+// BEHAVIOURAL MODELING
+module pe8x3(input [7:0] a, output reg [2:0] y);
+  always @(a) begin
+    case (1'b1)  // Use '1' as the condition to always evaluate the cases
+      a[7]: y = 3'b111;
+      a[6]: y = 3'b110;
+      a[5]: y = 3'b101;
+      a[4]: y = 3'b100;
+      a[3]: y = 3'b011;
+      a[2]: y = 3'b010;
+      a[1]: y = 3'b001;
+      default: y = 3'b000; //Handles the case where no input is high
+    endcase
+  end
+endmodule
 
 
 // GATE -LEVEL MODELING: 
