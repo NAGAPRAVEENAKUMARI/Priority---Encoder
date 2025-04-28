@@ -14,8 +14,8 @@ Truth Table governs mapping between active inputs and binary outputs.
 
 # Purpose / Why We Use Encoders
 
-**Data Compression:** Converts multiple inputs into a small number of binary bits.
-**Efficient Communication:** Reduces hardware complexity (fewer lines to transmit).
+##  **Data Compression:** Converts multiple inputs into a small number of binary bits.
+## **Efficient Communication:** Reduces hardware complexity (fewer lines to transmit).
 **Device Addressing:** Used to generate coded addresses for memory, I/O devices.
 **Input Recognition:** Used in applications like keyboards, control panels, and sensor networks to detect which input line is active.
 
@@ -26,4 +26,20 @@ Basic Encoder | Single active input, simple output generation.
 Priority Encoder | Allows multiple active inputs; encodes the highest-priority input.
 Decimal-to-BCD Encoder | Converts decimal inputs (0–9) into Binary Coded Decimal (BCD) format.
 Keyboard Encoder | Specialized encoder used to handle and encode multiple keypresses efficiently.
+
 ![Image](https://github.com/user-attachments/assets/57c53704-0b5b-4ab1-9f56-d40bf49a3e8a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
