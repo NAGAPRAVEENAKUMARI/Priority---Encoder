@@ -1,0 +1,58 @@
+$date
+	Sun Apr 27 20:50:52 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module pe8x3_tb $end
+$var wire 3 ! y [2:0] $end
+$var reg 8 " a [7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 "
+b0 !
+$end
+#10
+b1 !
+b10 "
+#20
+b10 !
+b100 "
+#30
+b11 !
+b1000 "
+#40
+b100 !
+b10000 "
+#50
+b101 !
+b100000 "
+#60
+b110 !
+b1000000 "
+#70
+b111 !
+b10000000 "
+#80
+b1 !
+b11 "
+#90
+b10 !
+b101 "
+#100
+b11 !
+b1100 "
+#110
+b101 !
+b110000 "
+#120
+b111 !
+b11000000 "
+#130
+b10101010 "
+#140
