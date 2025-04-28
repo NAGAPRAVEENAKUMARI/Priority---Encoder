@@ -26,4 +26,4 @@ Basic Encoder | Single active input, simple output generation.
 Priority Encoder | Allows multiple active inputs; encodes the highest-priority input.
 Decimal-to-BCD Encoder | Converts decimal inputs (0–9) into Binary Coded Decimal (BCD) format.
 Keyboard Encoder | Specialized encoder used to handle and encode multiple keypresses efficiently.
-<!-- Uploading "4x3encoder.jpg"... -->
+![Image](https://github.com/user-attachments/assets/57c53704-0b5b-4ab1-9f56-d40bf49a3e8a)
