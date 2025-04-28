@@ -14,9 +14,12 @@ Truth Table governs mapping between active inputs and binary outputs.
 
 # Purpose / Why We Use Encoders
 
-##  **Data Compression:** Converts multiple inputs into a small number of binary bits.
-## **Efficient Communication:** Reduces hardware complexity (fewer lines to transmit).
+**Data Compression:** Converts multiple inputs into a small number of binary bits.
+
+**Efficient Communication:** Reduces hardware complexity (fewer lines to transmit).
+
 **Device Addressing:** Used to generate coded addresses for memory, I/O devices.
+
 **Input Recognition:** Used in applications like keyboards, control panels, and sensor networks to detect which input line is active.
 
 # Types of Encoders
